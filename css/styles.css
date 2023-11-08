@@ -1,0 +1,139 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    src: url('../fonts/roboto-condensed-v27-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    src: url('../fonts/roboto-condensed-v27-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    src: url('../fonts/roboto-condensed-v27-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+:root {
+    --color-primary-light: #2B7FFF;
+    --color-primary-dark: #011C44;
+    --color-primary-white: #FFFFFF;
+    --color-secondary-black: #000;
+    --color-secondary-light: #747272;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Link */
+.link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+
+}
+
+.link:hover {
+    color: var(--color-primary-light);
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero-title {
+    font-family: 'Play', sans-serif;
+    color: var(--color-primary-light);
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: capitalize;
+}
+
+.hero-button {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-light);
+    border: 2px solid var(--color-primary-light);
+    border-radius: 32px;
+    font-weight: 600;
+}
+
+.hero-message {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.section-title .accent {
+    color: var(--color-primary-light);
+}
+
+/* Clinic Offers Section */
+.clinic-offers-text {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* Clinik Advantages Section */
+.clinik-advantages-text {
+    color: var(--color-secondary-black);
+}
+
+/* Procedures Section */
+.procedures-title {
+    color: var(--color-primary-white);
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+/* Contacts Section */
+.contacts-title {
+    color: var(--color-primary-white);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contacts-title .accent {
+    color: var(--color-primary-light);
+}
+
+/* Footer */
+.adress-coryright {
+    font-size: 13px;
+    color: var(--color-secondary-light);
+}
